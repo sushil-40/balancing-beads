@@ -1,0 +1,46 @@
+.wrapper {
+  background-color: rgb(71, 70, 70);
+  min-height: 100vh;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.486);
+  height: 80px;
+}
+/* Added padding-top to hero to prevent overlap */
+.mt-nav {
+  padding-top: 0px; /* Same as nav height */
+}
+
+.hero {
+  position: relative;
+  min-height: 90vh;
+  background: url("./assets/tyre-bg.png") no-repeat;
+  background-size: cover;
+}
+.title-style {
+  font-family: "font-effect-shadow-multiple", serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  font-weight: bold;
+  color: blue;
+}
+.hero-description {
+  font-family: "Tangerine", serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  color: rgb(250, 9, 9);
+}
+.form-control {
+  color: blueviolet;
+}
+.hero-content {
+  max-width: 650px;
+}
+.logo-text-style {
+  font-family: "font-effect-shadow-multiple", serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #134d05;
+  font-weight: bold;
+  color: rgba(245, 244, 235, 0.856);
+}
